@@ -18,14 +18,25 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: white;
+  color: #30B868;
+  border: 1px solid #30B868;
+}
 .white-btn {
   padding: 12px 16px;
   gap: 10px;
   font-weight: 600px;
+  background-color: transparent;
   color: #30B868;
   border: 1px solid #ffffff;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.white-btn:hover {
+  background-color: #30B868;
+  color: white;
 }
 .logo img {
   width: 139px;
@@ -223,4 +234,28 @@ nav {
 
 .ending-messege {
   padding-top: 24px;
+}
+
+footer {
+  background-color: #001931;
+  margin-top: 120px;
+  padding: 120px 80px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-images {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
 }
