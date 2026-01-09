@@ -166,6 +166,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  padding: 120px 0;
 }
 
 .brain-content .section-messege {
@@ -195,4 +196,31 @@ nav {
 
 .brain-image {
   max-width: 600px;
+}
+
+#early-access {
+  margin: 0 auto;
+}
+
+.early-access-content {
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.early-access-content h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+.early-access-content p {
+  color: #627382;
+  line-height: 24px;
+  padding-bottom: 24px;
+}
+
+.ending-messege {
+  padding-top: 24px;
 }
