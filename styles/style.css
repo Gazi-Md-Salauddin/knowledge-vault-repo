@@ -104,8 +104,10 @@ nav {
   line-height: 24px;
 }
 
-.card-container {
+.container {
   width: 85%;
+}
+#card-container {
   margin: 0 auto;
 }
 .card-heading {
@@ -154,4 +156,43 @@ nav {
   padding: 14px;
   background-color: #F95555;
   border-radius: 50px;
+}
+
+#brain {
+  margin: 0 auto;
+}
+.brain-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-content .section-messege {
+  color: #30B868;
+  padding-bottom: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.brain-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 16px;
+  color: #001931;
+}
+
+.description {
+  color: #627382;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+.checklist {
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+.brain-image {
+  max-width: 600px;
 }
